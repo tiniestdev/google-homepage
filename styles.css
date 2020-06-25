@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: red;
+}
+div, a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+.main-structure {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.header {
+    display: flex;
+    background-color: rgb(197, 197, 197);
+    flex-basis: 1em;
+    padding: 18px;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+}
+.body {
+    background-color: rgb(214, 214, 214);
+
+    margin: 0px 100px;
+}
+.topbar-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top-option {
+    /*background-color: rgb(240, 112, 112);*/
+    padding-right: 18px;
+    opacity: 0.75;
+}
+.sprite-icon {
+    /*background-color: rgb(223, 0, 0);*/
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    height: 30px;
+    width: 30px;
+}
+#grid-button {
+    background-position: -132px -38px;
+}
+#user-button {
+    padding-right: 0px;
+    background-color: rgb(223, 0, 0);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
